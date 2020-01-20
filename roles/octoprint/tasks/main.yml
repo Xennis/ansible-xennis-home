@@ -9,3 +9,6 @@
 
 - include_tasks: plugins.yml
   tags: plugins
+
+- include_tasks: camera.yml
+  tags: camera
