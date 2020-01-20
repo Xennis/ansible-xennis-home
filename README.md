@@ -1,4 +1,4 @@
-# Ansible Playbook: OctoPrint on a Raspberry PI (OctoPI)
+# Ansible Playbook: OctoPrint on a Raspberry Pi (OctoPi)
 
 [![Build Status](https://travis-ci.org/Xennis/xennis-octopi.svg?branch=master)](https://travis-ci.org/Xennis/xennis-octopi)
 
@@ -6,7 +6,7 @@
 
 Add a `[octopi]` group to `/etc/ansible/hosts` with the IP of the Pi.
 
-### Setup the Raspberry PI
+### Setup the Raspberry Pi
 
 Requirements:
 * Ansible is installed
