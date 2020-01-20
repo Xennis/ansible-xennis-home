@@ -1,0 +1,4 @@
+---
+
+octoprint_plugins:
+  - {repo: "https://github.com/eyal0/OctoPrint-PrintTimeGenius/", release: "2.2"}

@@ -1,0 +1,9 @@
+---
+
+- name: Xennis OctoPi
+  hosts: octopi
+  user: pi
+  vars_files:
+    - env-vars/main.yml
+  roles:
+    - octoprint

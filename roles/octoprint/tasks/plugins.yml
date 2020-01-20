@@ -1,0 +1,9 @@
+---
+
+- name: octoprint | Install plugins
+  pip:
+    executable: ~/oprint/bin/pip
+    name: "{{ item.repo }}/archive/{{ item.release }}.zip"
+  with_items: "{{ octoprint_plugins }}"
+  when: octoprint_plugins is defined
+  tags: plugins
