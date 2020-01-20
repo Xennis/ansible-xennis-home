@@ -1,0 +1,8 @@
+---
+
+- name: octoprint | Configure printer
+  copy:
+    src: "files/anycubic_i3_mega_s.profile"
+    dest: "~/.octoprint/printerProfiles/anycubic_i3_mega_s.profile"
+    mode: 0644
+  tags: printer

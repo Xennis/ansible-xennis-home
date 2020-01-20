@@ -12,3 +12,6 @@
 
 - include_tasks: camera.yml
   tags: camera
+
+- include_tasks: printer.yml
+  tags: printer
