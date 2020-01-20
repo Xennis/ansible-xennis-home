@@ -5,3 +5,5 @@ octoprint_plugins:
   - {repo: "https://github.com/bradcfisher/OctoPrint-ExcludeRegionPlugin/", release: "0.2.0"}
   - {repo: "https://github.com/eyal0/OctoPrint-PrintTimeGenius/", release: "2.2"}
   - {repo: "https://github.com/Sebclem/OctoPrint-SimpleEmergencyStop/", release: "0.2.5"}
+
+camera_usb_options: "--resolution 1280x720 --fps 30"
