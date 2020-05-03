@@ -1,0 +1,16 @@
+---
+
+- name: Xennis OctoPi
+  hosts: octopi
+  user: pi
+  roles:
+    - octoprint
+
+- name: Xennis raspotify
+  hosts: raspotify
+  user: pi
+  roles:
+    - role: xennis.raspotify
+      become: yes
+      vars:
+        device_name: "XennisPi"

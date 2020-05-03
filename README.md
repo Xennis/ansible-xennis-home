@@ -1,14 +1,15 @@
-# Ansible Playbook: OctoPrint on a Raspberry Pi (OctoPi)
+# Ansible Playbook: Xennis Home
 
-[![Build Status](https://travis-ci.org/Xennis/xennis-octopi.svg?branch=master)](https://travis-ci.org/Xennis/xennis-octopi)
+[![Build Status](https://travis-ci.org/Xennis/xennis-ansible-home.svg?branch=master)](https://travis-ci.org/Xennis/xennis-ansible-home)
 
-### Setup the Raspberry Pi
+### Usage
 
 Requirements:
 * Ansible is installed
-* Pi with OctoPrint is up and running
+* Pi `octopi.local` with OctoPrint is up and running
+* Pi `raspotify.local` with Raspbian is up and running
 
 Run the playbook
 ```sh
-ansible-playbook xennis-octopi.yml --inventory hosts --ask-become-pass
+ansible-playbook xennis-home.yml --inventory hosts --ask-become-pass
 ```

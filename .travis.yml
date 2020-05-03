@@ -5,7 +5,8 @@ install:
   - pip --quiet install ansible
 before_script:
   - ansible-playbook --version
+  - ansible-galaxy role install -r requirements.yml
 script:
-  - ansible-playbook --syntax-check xennis-octopi.yml
+  - ansible-playbook --syntax-check xennis-home.yml
 branches:
   only: [master]
