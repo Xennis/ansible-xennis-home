@@ -7,6 +7,6 @@ before_script:
   - ansible-playbook --version
   - ansible-galaxy role install -r requirements.yml
 script:
-  - ansible-playbook --syntax-check xennis-home.yml
+  - ansible-playbook --inventory tests/inventory --syntax-check xennis-home.yml
 branches:
   only: [master]
