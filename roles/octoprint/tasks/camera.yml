@@ -3,7 +3,7 @@
 - name: octoprint | Configure camera
   become: true
   template:
-    src: "files/octopi.txt.j2"
+    src: "templates/octopi.txt.j2"
     dest: "/boot/octopi.txt"
     mode: 0755
   when: camera_usb_options is defined
