@@ -2,10 +2,6 @@
 
 [![Build Status](https://travis-ci.org/Xennis/xennis-octopi.svg?branch=master)](https://travis-ci.org/Xennis/xennis-octopi)
 
-### Initial local setup
-
-Add a `[octopi]` group to `/etc/ansible/hosts` with the IP of the Pi.
-
 ### Setup the Raspberry Pi
 
 Requirements:
@@ -14,5 +10,5 @@ Requirements:
 
 Run the playbook
 ```sh
-ansible-playbook xennis-octopi.yml --ask-become-pass
+ansible-playbook xennis-octopi.yml --inventory hosts --ask-become-pass
 ```
