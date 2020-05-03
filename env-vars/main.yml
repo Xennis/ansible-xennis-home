@@ -5,7 +5,7 @@ octoprint_plugins:
   - {repo: "https://github.com/bradcfisher/OctoPrint-ExcludeRegionPlugin/", release: "0.2.0"}
   - {repo: "https://github.com/eyal0/OctoPrint-PrintTimeGenius/", release: "2.2.1"}
   - {repo: "https://github.com/google/OctoPrint-TemperatureFailsafe", release: "master"}
-  - {repo: "https://github.com/Sebclem/OctoPrint-SimpleEmergencyStop/", release: "0.2.5"}
-  - {repo: "https://github.com/TheSpaghettiDetective/OctoPrint-TheSpaghettiDetective/", release: "1.1.4"}
+  - {repo: "https://github.com/Sebclem/OctoPrint-SimpleEmergencyStop/", release: "1.0.1"}
+  - {repo: "https://github.com/TheSpaghettiDetective/OctoPrint-TheSpaghettiDetective/", release: "1.1.6"}
 
 camera_usb_options: "--resolution 1280x720 --fps 30"
