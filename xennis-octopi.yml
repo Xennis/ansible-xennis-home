@@ -1,7 +1,0 @@
----
-
-- name: Xennis OctoPi
-  hosts: octopi
-  user: pi
-  roles:
-    - octoprint

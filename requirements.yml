@@ -1,0 +1,4 @@
+---
+- src: https://github.com/Xennis/ansible-role-raspotify.git
+  version: master
+  name: xennis.raspotify
