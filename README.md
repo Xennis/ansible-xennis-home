@@ -1,6 +1,6 @@
 # Ansible Playbook: Xennis Home
 
-[![Build Status](https://travis-ci.org/Xennis/xennis-ansible-home.svg?branch=master)](https://travis-ci.org/Xennis/xennis-ansible-home)
+[![Build Status](https://travis-ci.org/Xennis/ansible-xennis-home.svg?branch=master)](https://travis-ci.org/Xennis/ansible-xennis-home)
 
 ### Usage
 
