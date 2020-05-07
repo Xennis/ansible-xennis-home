@@ -2,6 +2,7 @@
 
 octoprint_plugins:
   - {repo: "https://github.com/foosel/OctoPrint/", release: "1.4.0"}
+  - {repo: "https://github.com/jneilliii/OctoPrint-BedLevelVisualizer/", release: "0.1.13"}
   - {repo: "https://github.com/bradcfisher/OctoPrint-ExcludeRegionPlugin/", release: "0.2.0"}
   - {repo: "https://github.com/eyal0/OctoPrint-PrintTimeGenius/", release: "2.2.1"}
   - {repo: "https://github.com/google/OctoPrint-TemperatureFailsafe", release: "master"}
