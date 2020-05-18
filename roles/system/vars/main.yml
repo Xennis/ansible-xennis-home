@@ -1,0 +1,6 @@
+# Use key-based authentication only.
+#
+# Detail see section "Improving SSH security"
+# https://www.raspberrypi.org/documentation/configuration/security.md
+ssh_password_auth: "no"
+ssh_use_pam: "no"

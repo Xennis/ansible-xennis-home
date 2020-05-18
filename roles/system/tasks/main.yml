@@ -1,0 +1,24 @@
+---
+
+- name: Update and upgrade apt packages
+  become: true
+  apt:
+    upgrade: yes
+    update_cache: yes
+  tags: [ never, update ]
+
+- name: Copy SSH config
+  become: true
+  template:
+    src: "templates/sshd_config.j2"
+    dest: "/etc/ssh/sshd_config"
+    mode: 0644
+  tags: ssh
+  notify:
+   - Restart SSH service
+
+- name: Ensure basic packages are installed
+  apt:
+    name: vim
+    state: present
+  become: true
