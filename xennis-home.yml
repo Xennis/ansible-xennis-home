@@ -4,6 +4,7 @@
   hosts: octopi
   user: pi
   roles:
+    - system
     - octoprint
 
 - name: Xennis raspotify
