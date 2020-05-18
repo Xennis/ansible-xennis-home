@@ -8,3 +8,14 @@
 
 - include_tasks: printer.yml
   tags: printer
+
+- name: Copy GCode scripts
+  copy:
+    src: "{{ item }}"
+    dest: ~/.octoprint/scripts/gcode/
+    mode: 0644
+  with_fileglob:
+    - files/scripts/gcode/*
+  notify:
+    - Restart octoprint service
+  tags: config

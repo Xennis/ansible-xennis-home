@@ -1,0 +1,4 @@
+; Load all saved settings from EEPROM.
+M501
+; Enable bed level state
+M420 S1
