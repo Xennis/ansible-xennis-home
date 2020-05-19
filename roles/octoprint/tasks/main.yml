@@ -1,5 +1,12 @@
 ---
 
+- name: Ensure latest oprint pip
+  pip:
+    executable: ~/oprint/bin/pip
+    name: pip
+    state: latest
+  tags: [ never, update ]
+
 - include_tasks: plugins.yml
   tags: plugins
 
