@@ -1,12 +1,12 @@
 ---
 
 octoprint_plugins:
-  - {repo: "https://github.com/foosel/OctoPrint/", release: "1.4.0"}
-  - {repo: "https://github.com/jneilliii/OctoPrint-BedLevelVisualizer/", release: "0.1.13"}
-  - {repo: "https://github.com/bradcfisher/OctoPrint-ExcludeRegionPlugin/", release: "0.2.0"}
-  - {repo: "https://github.com/eyal0/OctoPrint-PrintTimeGenius/", release: "2.2.1"}
-  - {repo: "https://github.com/google/OctoPrint-TemperatureFailsafe", release: "master"}
-  - {repo: "https://github.com/Sebclem/OctoPrint-SimpleEmergencyStop/", release: "1.0.1"}
-  - {repo: "https://github.com/TheSpaghettiDetective/OctoPrint-TheSpaghettiDetective/", release: "1.2.1"}
+  - {repo: "https://github.com/foosel/OctoPrint.git", release: "1.4.0"}
+  - {repo: "https://github.com/jneilliii/OctoPrint-BedLevelVisualizer.git", release: "0.1.13"}
+  - {repo: "https://github.com/bradcfisher/OctoPrint-ExcludeRegionPlugin.git", release: "0.2.0"}
+  - {repo: "https://github.com/eyal0/OctoPrint-PrintTimeGenius.git", release: "2.2.1"}
+  - {repo: "https://github.com/google/OctoPrint-TemperatureFailsafe.git", release: "master"}
+  - {repo: "https://github.com/Sebclem/OctoPrint-SimpleEmergencyStop.git", release: "1.0.1"}
+  - {repo: "https://github.com/TheSpaghettiDetective/OctoPrint-TheSpaghettiDetective.git", release: "1.2.1"}
 
 camera_usb_options: "--resolution 1280x720 --fps 30"
