@@ -3,7 +3,7 @@
 - name: octoprint | Install plugins
   pip:
     executable: ~/oprint/bin/pip
-    name: "{{ item.repo }}/archive/{{ item.release }}.zip"
+    name: "git+{{ item.repo }}@{{ item.release }}"
   with_items: "{{ octoprint_plugins }}"
   when: octoprint_plugins is defined
   tags: plugins
