@@ -1,0 +1,6 @@
+---
+
+- name: Set volume
+  command: amixer sset '{{ amixer_simple_control_id }}' {{amixer_volume}}
+  when: amixer_simple_control_id is defined and amixer_volume is defined
+  tags: sound

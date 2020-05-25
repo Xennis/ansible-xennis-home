@@ -11,6 +11,10 @@
   hosts: raspotify
   user: pi
   roles:
+    - role: system
+      vars:
+        amixer_simple_control_id: "PCM"
+        amixer_volume: "100%"
     - role: xennis.raspotify
       become: yes
       vars:
