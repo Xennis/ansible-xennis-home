@@ -22,3 +22,6 @@
     name: vim
     state: present
   become: true
+
+- include_tasks: sound.yml
+  tags: sound
