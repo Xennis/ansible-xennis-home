@@ -1,6 +1,6 @@
 # Ansible Playbook: Xennis Home
 
-[![Build Status](https://travis-ci.org/Xennis/ansible-xennis-home.svg?branch=master)](https://travis-ci.org/Xennis/ansible-xennis-home)
+![Ansible](https://github.com/Xennis/ansible-xennis-home/workflows/Ansible/badge.svg?branch=master&event=push)
 
 ### Usage
 
