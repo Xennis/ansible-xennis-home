@@ -8,5 +8,6 @@ octoprint_plugins:
   - {repo: "https://github.com/google/OctoPrint-TemperatureFailsafe.git", release: "master"}
   - {repo: "https://github.com/Sebclem/OctoPrint-SimpleEmergencyStop.git", release: "1.0.3"}
   - {repo: "https://github.com/TheSpaghettiDetective/OctoPrint-TheSpaghettiDetective.git", release: "1.4.2"}
+  - {repo: "https://github.com/Xennis/OctoPrint-RestoreLevelingAfterG28.git", release: "1.1.0"}
 
 camera_usb_options: "--resolution 1280x720 --fps 30"
