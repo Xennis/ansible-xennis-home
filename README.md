@@ -1,6 +1,6 @@
 # Ansible Playbook: Xennis Home
 
-![Ansible](https://github.com/Xennis/ansible-xennis-home/workflows/Ansible/badge.svg?branch=master&event=push)
+[![Ansible](https://github.com/Xennis/ansible-xennis-home/workflows/Ansible/badge.svg?branch=master&event=push)](https://github.com/Xennis/ansible-xennis-home/actions?query=workflow%3AAnsible+event%3Apush+branch%3Amaster)
 
 ### Usage
 
