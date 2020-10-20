@@ -7,6 +7,15 @@
     state: latest
   tags: [ never, update ]
 
+#- name: Copy configuration
+#  copy:
+#    src: "files/config.yaml"
+#    dest: ~/.octoprint/config.yaml
+#    mode: 0644
+#  notify:
+#    - Restart octoprint service
+#  tags: [ never, cfg ]
+#
 - include_tasks: plugins.yml
   tags: plugins
 
